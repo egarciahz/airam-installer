@@ -1,0 +1,38 @@
+{
+    "name": "egarciahz/airam-installer",
+    "description": "Airam Installer.",
+    "keywords": ["airam"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ezequiel Garcia",
+            "email": "egarcia.informatic.ing@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "symfony/console": "^5.0",
+        "symfony/process": "^5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "bin": [
+        "bin/airam"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Airam\\Installer\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Airam\\Installer\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
