@@ -6,7 +6,7 @@ composer require global egarciahz/airam-installer
 
 ## Usage
 ```bash
-composer require global egarciahz/airam-installer
+composer airam new --help
 ```
 
 ## License
