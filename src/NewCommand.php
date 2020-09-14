@@ -26,7 +26,7 @@ class NewCommand extends Command
             ->setDescription("Create a new Airam Project")
             ->addArgument("name", InputArgument::REQUIRED, "Name of project folder")
             ->addOption('dev', 'D', InputOption::VALUE_NONE, 'Installs the latest "development" release')
-            ->addOption('no-npm', 'N', InputOption::VALUE_OPTIONAL, 'Not install Npm packages')
+            ->addOption('no-npm', 'N', InputOption::VALUE_NONE, 'Not install Npm packages')
             ->addOption('force', 'f', InputOption::VALUE_NONE, 'Forces install even if the directory already exists');
     }
 

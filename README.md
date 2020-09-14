@@ -1,13 +1,21 @@
 ## Install 
 
 ```bash
-composer require global egarciahz/airam-installer
+composer global require egarciahz/airam-installer
 ```
 
 ## Usage
 ```bash
 composer airam new --help
 ```
+
+**Options**
+
+> -D, --dev              Installs the latest "development" release
+
+> -N, --no-npm  Not install Npm packages
+
+> -f, --force            Forces install even if the directory already exists
 
 ## License
 
